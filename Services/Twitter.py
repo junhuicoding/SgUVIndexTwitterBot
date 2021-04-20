@@ -18,6 +18,7 @@ def auth():
 
 def tweet(message: str) -> bool:
     try:
+        auth()
         status = api.update_status(message)
     except tweepy.error.TweepError:
         print("Error publishing tweet")

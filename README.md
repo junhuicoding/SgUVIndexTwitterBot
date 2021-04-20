@@ -1,4 +1,4 @@
-# WhereToDineBot
+# SgUVIndexBot
 Singapore is a very sunny place, with a high UV index. Most of us are used to it and are unaware of how it affects and damages our skin. This Twitter bot was built to update the masses of the current UV index hourly, as well as provide some recommended actions to help prevent those damages.
 The account can be found [@SgUVIndexBot](https://twitter.com/SgUVIndexBot)
 

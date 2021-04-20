@@ -34,7 +34,7 @@ def generateUVTweetNow():
     result = verifyLatestUVIndex(currTime, results)
 
     if result is not None:
-        uvIndex = result.get("Value")
+        uvIndex = result.get("value")
         tweet(generateUVMessage(uvIndex))
 
     print(f'Current time is: {currTime}. No results available')
